@@ -11,5 +11,22 @@ public class nimenKaantaja {
             kaantynyt = kaantynyt + nimi.charAt(i);
         }
         System.out.println("Nimi toisinpäin on " + kaantynyt);
+
+
+        nimi = nimi.toLowerCase();
+        kaantynyt = kaantynyt.toLowerCase();
+        /* if (nimi == kaantynyt) {
+            System.out.println("Nimi on palindromi");
+        }
+        else {
+            System.out.println("Nimi ei ole palindromi");
+        } */
+
+        if (nimi.equals(kaantynyt)) {
+            System.out.println("Nimi on palindromi");
+        }
+        else {
+            System.out.println("Nimi ei ole palindromi");
+        }
     }
 }
