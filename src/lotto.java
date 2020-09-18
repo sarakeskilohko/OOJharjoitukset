@@ -15,7 +15,7 @@ public class lotto {
             lottorivi.add(num);
             //*System.out.println(lottorivi);
             }
-        System.out.println(lottorivi); */
+        System.out.println(lottorivi); <-- ei toimi */
 
 
         do {
@@ -29,4 +29,8 @@ public class lotto {
             }
         System.out.println(lottorivi);
     }
+    public static void onkoSama() {
+
+    }
+
 }
