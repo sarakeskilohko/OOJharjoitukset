@@ -20,7 +20,7 @@ public class nimenKaantaja {
         }
         else {
             System.out.println("Nimi ei ole palindromi");
-        } */
+        } <-- ei toimi */
 
         if (nimi.equals(kaantynyt)) {
             System.out.println("Nimi on palindromi");
