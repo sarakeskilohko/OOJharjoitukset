@@ -1,6 +1,9 @@
 import java.util.*;
 public class lotto {
     public static void main(String[] args) {
+        System.out.println("Minnan lottorivi: ");
+        luoLottoRivi();
+        System.out.println("Mikon lottorivi: ");
         luoLottoRivi();
     }
 
