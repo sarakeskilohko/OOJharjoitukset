@@ -16,6 +16,9 @@ public class lotto {
     }
 
     public static ArrayList<Integer> luoLottoRivi() {
+
+        //* Luodaan arraylist, johon lottorivi tallennetaan
+
         ArrayList<Integer> lottorivi = new ArrayList<>();
         Random random = new Random();
         /*for (int i = 0 ; i < 7 ; i++) {
@@ -25,6 +28,8 @@ public class lotto {
             }
         System.out.println(lottorivi); <-- ei toimi */
 
+        //* Lisätään satunnaiset luvut lottoriviin, kunnes lukuja on yhteensä 7.
+        //* Tarkistetaan myös, ettei riviin tule samoja lukuja.
 
         do {
             int num = random.nextInt(41);
@@ -39,6 +44,9 @@ public class lotto {
         return lottorivi;
     }
     public static ArrayList<Integer> onkoSama(ArrayList<Integer> a , ArrayList<Integer> b){
+
+        //* Luodaan arraylist, ja lisätään sinne lottoriveissä olleet samat luvut
+
         ArrayList<Integer> samat = new ArrayList<>();
         for (int i = 0 ; i < a.size() ; i++) {
             for (int j = 0; j < b.size(); j++) {
